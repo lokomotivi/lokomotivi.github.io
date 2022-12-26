@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first">
+        <h1>შევეცი</h1>
+    </div>
+    <div class="sec">
+         <h1>ქაუნთერს</h1>
+    </div>
+    <div class="third">
+        <h1>ბრატ</h1>
+    </div>
+    <div class="viz">
+        <img src="eag.png" alt="">
+        <img src="visa.cms" alt="">
+    </div>
+</body>
+<style>
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    body{
+        overflow: hidden;
+    }
+    .first,.sec,.third,.viz{
+        width: 200px;
+        display: flex;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -230px;
+    }
+    .first{
+        animation: mais 4s 1;
+        animation-timing-function: linear;
+    }
+    .sec{
+        animation: yle 4s 1;
+        animation-delay: 3s;
+        animation-timing-function: linear;
+    }
+    .third{
+        animation: mais 4s 1;
+        animation-delay: 6s;
+        animation-timing-function: linear;
+    }
+    .viz{
+        display: none;
+        animation: viza 1s 1;
+        animation-timing-function: linear;
+        animation-delay: 10s;
+    }
+    h1{
+        font-size: 100px;
+    }
+    @keyframes mais{
+        0%{
+            
+            margin-left: -500px;    
+        }
+        25%{
+            margin-left: 0px;
+        }
+        50%{
+            margin-left: 500px;
+        }
+        75%{
+            margin-left: 1000px;
+        }
+        100%{
+            margin-left: 1500px;
+        }
+    }
+    @keyframes yle{
+        0%{
+            
+            margin-left: -500px;    
+        }
+        25%{
+            margin-left: 0px;
+        }
+        50%{
+            margin-left: 500px;
+        }
+        75%{
+            margin-left: 1000px;
+        }
+        100%{
+            margin-left: 1500px;
+        }
+    }
+    @keyframes viza{
+        0%{
+            
+            margin-left: -500px;    
+        }
+        25%{
+            margin-left: 0px;
+        }
+        50%{
+            margin-left: 500px;
+        }
+        75%{
+            margin-left: 1000px;
+        }
+        100%{
+            margin-left: 1500px;
+        }
+    }
+</style>
+</html>
